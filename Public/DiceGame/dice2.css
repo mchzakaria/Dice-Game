@@ -1,0 +1,187 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to right, rgb(243, 178, 57), rgb(142, 142, 228));
+    user-select: none;
+}
+.container{
+    /* border: 1px solid black; */
+    border-radius: 20px;
+    background-color: #fff;
+    width: 1350px;
+    height: 820px;
+    margin-top: 60px;
+    margin-left: 140px;
+    display: flex;
+}
+.leftside{
+    border: 1px solid black ;
+    width: 850px;
+    height: 820px;
+}
+.rightside{
+    display: block;
+    border: 1px solid black ;
+    width: 500px;
+    height: 820px;
+    
+}
+.leftside h5{
+    text-align: center;
+    font-size: 23px;
+    text-transform: uppercase;
+    font-family: "Poppins";
+}
+.bottom{
+    border: 1px solid black ;
+    height: 508px;
+    width: 500px;
+}
+.top{
+    border: 1px solid black ;
+    height: 308px;
+    width: 500px;
+}
+/*Score*/
+.leftside h4{
+    text-align: center;
+    width: 400px;
+    position: absolute;
+    left: 360px;
+    top: 510px;
+    font-size: 20px;
+    font-family: "Poppins";
+    text-transform: uppercase;
+}
+.leftside #textscore #score {
+    font-size: 24px;
+    font-family: "Poppins";
+    color: red;
+}
+/* TOTAL SCORE */
+.rightside .top h4 ,.rightside .top h3{
+    text-align: center;
+    width: 477px;
+    font-size: 19px;
+    font-family: "Poppins";
+    text-transform: uppercase;
+}
+/* USERS LIST */
+.rightside .bottom h4{
+    text-align: center;
+    width: 484px;
+    font-size: 18px;
+    font-family: "Poppins";
+    text-transform: uppercase;
+}
+.contusers{
+    /* background-color: antiquewhite; */
+    width: 400px;
+    height: 435px;
+    padding-left: 20px;
+    overflow: auto;
+}
+.us{
+    height: 96px;
+}
+/* Image Users */
+.imageusers{
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+}
+/* USERS NAME */
+.us .name{
+    position: relative;
+    top: -65px;
+    left: 100px;
+}
+.us .score{
+    position: relative;
+    top: -99px;
+    left: 280px;
+}
+/*buttons*/
+.buttons{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 400px;
+    position: absolute;
+    top: 790px;
+    left: 355px;
+}
+#Roll, #Restart , #Save, #Exit{
+    cursor: pointer;
+    padding: 0 16px;
+    background-color: #0070d2;
+    border-radius: 0.3rem;
+    border: 1px solid #0070d2;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    line-height: 30px;
+    font-weight: 400;
+    text-align: center;
+}
+#StartGame{
+    cursor: pointer;
+    padding: 0 16px;
+    position: absolute;
+    left: 500px;
+    background-color: #0070d2;
+    border-radius: 0.3rem;
+    border: 1px solid #0070d2;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    line-height: 30px;
+    font-weight: 400;
+    text-align: center; 
+}
+#Roll:hover ,#Restart:hover, #Save:hover , #Exit:hover,#StartGame:hover{
+    transform: scale(1.1);
+    background-color: #005fb2;  
+    border-color: #005fb2;
+} 
+/**/
+.placeholder {
+    height: 100px;
+    width: 100px;
+    padding: 50px;
+    margin: 50px auto;
+    border: 1px solid gray;
+    border-radius: 10px;  
+}
+#imaged{
+    height: 197px;
+    width: 197px;
+    margin:-49px;
+    border-radius: 10px; 
+}
+/*paragraph and login button*/
+#para{
+    font-size: 17px;
+    padding-left: 15px;
+    font-family: "Poppins";
+    text-transform: uppercase;
+}
+#loginbtn{
+    cursor: pointer;
+    padding: 0 16px;
+    margin-top: 20px;
+    margin-left: 180px;
+    background-color: #0070d2;
+    border-radius: 0.3rem;
+    border: 1px solid #0070d2;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    line-height: 30px;
+    font-weight: 400;
+    text-align: center;
+}
+#loginbtn:hover{
+    transform: scale(1.1);
+    background-color: #005fb2;  
+    border-color: #005fb2;
+}
+

@@ -1,0 +1,59 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-repeat: no-repeat ;
+    background-size:cover ;
+    background-image: url(./Images/background.jpeg);
+}
+.container{
+    background-color: #fff;
+    width: 35%;
+    height: 450px;
+    margin: 220px auto;
+    text-align: center;
+    padding: 20px 0 0 0;
+    border-radius: 4px;
+    box-shadow: 0px 30px 50px 0px rgba(0, 0, 0, 0.2);
+}
+.container h4{
+    font-size: 26px;
+    position: relative;
+    top: -8px;
+}
+.container form {
+    position: relative;
+    top: -17px;
+}
+.container form input{
+    width: 350px;
+    height: 37px;
+    margin-left: 5px;
+}
+.container form label {
+    font-size: 18px;
+    font-family:'Times New Roman', Times, serif
+}
+::placeholder{
+    color: black;
+    font-size: 17px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.container form button[type=submit]{
+    width: 200px;
+    border-radius: 30px;
+    height: 36px; 
+    background-color: #4ab4c2;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-left: 5px;
+}
+.container form button[type=submit]:hover{
+    transform : scale(1.05);
+}
+#Useradd{
+    position: absolute;
+    left: 838px;
+    top:309px;
+    color: red;
+} 

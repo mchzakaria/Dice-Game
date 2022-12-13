@@ -1,0 +1,237 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: white;
+}
+.bar{
+    background-color:white;
+    position: absolute ;
+    height: 170px;
+    width: 100%;
+}
+.bar h5{
+    text-align: center;
+    height: 100px;
+    font-size: 39px;
+    color: rgb(101, 101, 192);
+}
+header {
+    background-color:rgb(166, 203, 246);
+    height: 90px;
+    width: 100%;
+    position: absolute;
+    top: 171px;
+}
+header .fa-solid{ 
+    font-size: 35px;
+    position: relative;
+    float: right;
+    left: -80px;
+    top: 17px;
+    color: rgb(101, 101, 192);
+}
+header .fa-solid:hover{
+    font-size: 40px;
+}
+header .fa-right-to-bracket{
+    position: relative;
+    float: right;
+    left: -111px;
+    top: 18px;
+}
+header .fa-right-from-bracket{
+    font-size: 35px;
+    position: relative;
+    float: right;
+    left: -133px;
+    top: 18px;
+}
+header .fa-right-from-bracket.fa-right-from-bracket:hover{
+    font-size: 40px; 
+}
+header .fa-right-from-bracket:hover{
+    font-size: 40px;
+}
+/*ul li a */
+ul{
+    display: inline;
+    position: absolute;
+    top: -3px;
+    left: 750px;
+}
+#zonegame,#users{  
+    display:inline;  
+    padding:10px;  
+    font-family: "Montserrat", sans-serif;
+    color: #131313; 
+    text-decoration:none;
+    font-size: 19px;  
+}
+#zonegame:hover , #users:hover{
+    font-size: 20px;
+    color: #f66936;
+}
+
+/*images*/
+#anonyme{
+    border-radius: 80px;
+    position: absolute;
+    top: -190%;
+    left: 0.4%;
+    height: 168px;
+}
+#imgsession{
+    border-radius: 80px;
+    position: absolute;
+    top: -190%;
+    left: 0.4%;
+    height: 168px;
+}
+/* PUBLICATION */ 
+.blog{
+    position: absolute;
+    background-color: rgb(164, 183, 240);
+    width: 600px;
+    height: 350px;
+    left: 640px;
+    top: 300px;
+}
+.blog .publication{
+   position: relative;
+   left: 140px;
+   top: 7px;
+}
+.blog .publication label{
+    font-size: 23px;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+}
+.blog .publication input[type="text"]{
+    width: 290px;
+    height: 30px;
+}
+::placeholder{ 
+    color: black;
+    font-size: 14px;
+    font-family: 'Poppins';
+}
+.blog .publication button{
+    font-family: 'Poppins';
+    color: #fff !important;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-decoration: none;
+    background: #2d3030;
+    padding:13px;
+    border-radius: 50px;
+    display: inline-block;
+    border: none;
+    cursor: pointer;
+}
+.blog .publication input[type="button"]:hover{
+    text-shadow: 0px 0px 6px rgb(131, 100, 100);
+    transform: scale(1.05);
+}
+    /*  ARTICLES */
+.articles{
+    position: relative;
+    top: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+}
+.articles .publ{
+    background-color: rgb(98, 142, 229);
+    width: 1000px;
+    height: 250px;
+    margin: 5px auto;
+    border-radius: 10px;
+    padding: 10px;
+}
+#titre{
+    font-size: 18px;
+    font-weight: 600;
+    font-family:"Poppins" ;
+    text-align: center;
+}
+/* div contient username and date */
+.userdate{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 35px;
+    margin-right: 45px;
+}
+#username{
+    font-size: 18px;
+    font-weight: 600;
+    font-family:"Poppins" ;
+}
+#Date_creation{
+    font-size: 18px;
+    font-weight: 600;
+    font-family:"Poppins" ;
+}
+#Contenu{
+    margin-left: 10px;
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+/* Edit and Trash */
+#edit{
+    position: relative;
+    left: 1320px; 
+    top: 55px;
+    width: 40px;
+    height: 40px;
+    font-size: 25px;
+}
+.edit,.trash {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 2px;
+    left: 4px;
+}
+#trash{
+    position: relative;
+    left: 1305px;
+    top:55px;
+    width: 40px;
+    height: 40px;
+    font-size: 25px;
+}
+
+/*heart*/
+.heart {
+    position: relative;
+    width: 20px;
+    height: 30px;
+}
+.heart:before, .heart:after {
+    position: absolute;
+    content: "";
+    left: 20px;
+    width: 22px;
+    height: 34px;
+    background: rgb(255, 255, 255);
+    border-radius: 50px 50px 0 0;
+    transform: rotate(-45deg);
+    transform-origin: 0 100%;
+}
+.heart:after {
+    left: 0;
+    transform: rotate(45deg);
+    transform-origin: 100% 100%;
+}
+/**/
+h3{
+    color:rgb(101, 101, 192);
+    font-size: 30px;                                                                                                                                                                                 
+}
+#fillblank{
+    
+}
